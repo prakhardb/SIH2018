@@ -1,0 +1,42 @@
+.header{
+	background-color:#267AC0;
+}
+.back{
+	background-image:url("back.jpg");
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:#333;
+	text-align="center";
+	height:5%;
+}
+body{
+  background-color: #f8f8f8;
+}
+.login-panel{
+  margin-top:25%;
+}
+.panel-green > .panel-heading {
+  border-color: #5cb85c;
+  color: white;
+  background-color: #5cb85c;
+}
+
+.panel-red > .panel-heading {
+  border-color: #d9534f;
+  color: white;
+  background-color: #d9534f;
+}
+
+.panel-yellow > .panel-heading {
+  border-color: #f0ad4e;
+  color: white;
+  background-color: #f0ad4e;
+}
+.navbar-grey{
+  background-color: #f8f8f8;
+  padding-left: 20px;
+}
