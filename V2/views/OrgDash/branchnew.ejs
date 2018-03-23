@@ -1,0 +1,12 @@
+<% include ../partials/header %>
+<form action="/branches" method="POST" class="form-group">
+    <input type="text" name="branch[state]" placeholder="State">
+    <input type="text" name="branch[city]" placeholder="City">
+    <input type="text" name="branch[manager]" placeholder="Manger Name">
+    <input type="text" name="branch[phonenumber]" placeholder="Phone Number">
+    <input type="textfield" name="branch[address]" placeholder="Address">
+    <input type="text" name="branch[pincode]" placeholder="Pincode">
+    <input type ="text" name="branch[ifsc]" placeholder="IFSC Code">
+    <input type="submit" value="Add Branch">
+</form>
+<% include ../partials/footer %>
