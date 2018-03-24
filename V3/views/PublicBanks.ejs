@@ -1,0 +1,24 @@
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<div class="container">
+<header class="jumbotron">
+    <h1>Public Banks</h1>
+</header> 
+    <div class="row">
+        <% publicbank.forEach(function(publicbank) { %>
+       <div class="col-lg-3 col-md-4 mb-4 col-sm-6">
+           <div class="card">
+           <div class="thumbnail">
+                <img  class="card-img-top" src="<%= publicbank.img %>" >
+                <div class="caption">
+                        <h4 style="text-align:center;"><u><%= publicbank.name %></u></h4> 
+                        <h5>Website:</h5> <%= publicbank.website %> 
+                        <div class="row">
+                                <a style="margin:20px;" href="#" class="btn btn-primary">Search Branches</a>
+                        </div>
+                </div>
+           </div>            
+                             </div>        
+        </div>
+        <% }); %>
+    </div>
+</div>

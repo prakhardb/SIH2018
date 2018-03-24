@@ -1,0 +1,26 @@
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<div class="container">
+<header class="jumbotron">
+    <h1>Private Banks</h1>
+</header> 
+    <div class="row">
+        <% privatebank.forEach(function(privatebank) { %>
+       <div class="col-lg-3 col-md-4 mb-4 col-sm-6">
+           <div class="card">
+           <div class="thumbnail">
+                <img  class="card-img-top" src="<%= privatebank.img %>" >
+                <div class="caption">
+                    <div class="container">
+                        <h4 style="text-align:center;"><u><%= privatebank.name %></u></h4> 
+                        <h5>Website:</h5> <a href="<%= privatebank.website %>"><%= privatebank.website %></a> 
+                        </div>
+                        <div class="row">
+                                <a style="margin:20px;" href="#" class="btn btn-primary">Search Branches</a>
+                        </div>
+                </div>
+           </div>            
+                             </div>        
+        </div>
+        <% }); %>
+    </div>
+</div>
