@@ -1,0 +1,102 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>National Registry for Financial Services</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">National Registry</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Organisation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schemes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login |Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <form class="form-horizontal register col-md-offset-4" action='' method="POST">
+      <fieldset>
+        <div id="legend">
+          <legend class="">Register</legend>
+        </div>
+        <div class="control-group">
+          <!-- Username -->
+          <label class="control-label" >Enter your organisation</label>
+          <div class="controls">
+            <input type="text" name="Organisation" placeholder="" class="input-xlarge">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <!-- Type of organisation -->
+          <label class="control-label" >Type of Organisation</label>
+          <div class="controls">
+            <select>
+              <option>Public Bank</option>
+              <option>Private Bank</option>
+              <option>SFC's</option>
+              <option>PSU's</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <!-- E-mail-->
+          <label class="control-label" >Enter your E-mail</label>
+          <div class="controls">
+            <input type="email" name="email" placeholder="" class="input-xlarge">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <!-- Password-->
+          <label class="control-label" for="password">Password</label>
+          <div class="controls">
+            <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <!--Confirm Password -->
+          <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+          <div class="controls">
+            <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-success">Register</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+
+
+  </body>
+</html>
